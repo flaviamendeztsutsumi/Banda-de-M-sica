@@ -51,6 +51,7 @@ public class Interfaz {
     }
 
     public void agregarDirector() {
+        System.out.print("Nombre del director: ");
         String nombre = scanner.nextLine();
         Director director = new Director(nombre);
         Actuacion actuacion = obtenerActuacion();
@@ -93,7 +94,7 @@ public class Interfaz {
         System.out.println("Músico de refuerzo añadido.");
     }
 
-    
+
 
     public void mostrarActuaciones() {
         System.out.println("Banda compuesta por:");
@@ -108,5 +109,5 @@ public class Interfaz {
         return actuacion;
     }
 
-    
+
 }

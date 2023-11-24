@@ -11,6 +11,6 @@ public class MusicoRefuerzo extends Participante {
     }
 
     public String toString() {
-        return getNombre() + ", " + getInstrumento() + ", " + cantidad + " €";
+        return getNombre() + ", " + getInstrumento() + ", " + cantidad ;
     }
 }

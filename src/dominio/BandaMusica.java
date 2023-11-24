@@ -25,10 +25,17 @@ public class BandaMusica {
     }
 
     public String toString() {
-        StringBuilder sb = new StringBuilder("BANDA DE MÚSICA VILLA " + nombre + "\n");
+        StringBuilder sb = new StringBuilder("BANDA DE MÚSICA VILLA +++" + nombre + "\n");
         for (Actuacion actuacion : actuaciones) {
             sb.append(actuacion).append("\n");
         }
         return sb.toString();
+    }
+
+    private StringBuilder sbappend(Actuacion actuacion) {
+        return null;
+    }
+
+    public void agregarActuacion(Actuacion actuacion) {
     }
 }

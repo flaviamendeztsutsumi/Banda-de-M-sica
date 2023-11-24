@@ -17,11 +17,14 @@ public class Actuacion {
         participantes.add(participante);
     }
 
+   
     public String toString() {
-        StringBuilder sb = new StringBuilder("Fecha de actuación: " + fecha + "\n");
+        String resultado = "Fecha de la actuación: " + fecha + "\n" ;
         for (Participante participante : participantes) {
-            sb.append(participante.toString()).append("\n");
+                resultado += participante.toString() + "\n";
         }
-        return sb.toString();
+        return resultado;
     }
-}
+
+    }
+
